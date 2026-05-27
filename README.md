@@ -120,7 +120,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-03-analytics
+git clone https://github.com/j-carne/datafun-03-analytics
 
 cd datafun-03-analytics
 code .
