@@ -188,3 +188,8 @@ git push -u origin main
 | INFO | P03 | Executed successfully!
 | INFO | P03 | ========================
 ```
+## Modification
+
+-the case_text_pipeline.py file was modified to evaluate a different text in the raw directory.
+-a new input called short_story.txt file was added
+-the program runs the same calculations but call in a different text file

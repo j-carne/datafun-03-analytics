@@ -154,8 +154,8 @@ def run_text_pipeline(*, raw_dir: Path, processed_dir: Path, logger: Any) -> Non
     """
     logger.info("TXT: START")
 
-    input_file = raw_dir / "romeo_and_juliet.txt"
-    output_file = processed_dir / "txt_summary.txt"
+    input_file = raw_dir / "short_story.txt"
+    output_file = processed_dir / "short_story_txt_summary.txt"
 
     # E: Read raw data.
     lines = extract_lines(file_path=input_file)
