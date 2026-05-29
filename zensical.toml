@@ -11,7 +11,7 @@ site_name = "Data Analytics Fundamentals"
 site_url = "https://denisecase.github.io/datafun-03-analytics/"
 repo_url = "https://github.com/j-carne/datafun-03-analytics"
 repo_name = "j-carne/datafun-03-analytics"
-site_description = "Project documentation"
+site_description = "Python ETVL data pipelines including real-world aviation flight data analysis"
 docs_dir = "docs" # source directory for documentation markdown files
 site_dir = "site" # output directory for generated site (ignored by Git; not in repo)
 edit_uri = "edit/main/docs/" # "Edit this page" links (GitHub)
@@ -61,6 +61,7 @@ nav = [
     { "Home" = "index.md" },
     { "Project Instructions" = "project-instructions.md" },
     { "Your Files" = "your-files.md" },
+    { "CHT Flight Data Pipeline" = "cht-pipeline.md" },
     { "Glossary" = "glossary.md" },
     { "API" = "module/api.md" },
 ]

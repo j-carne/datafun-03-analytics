@@ -107,3 +107,6 @@ dist/
 
 # WHY: Notebook checkpoint state is generated.
 .ipynb_checkpoints/
+
+# WHY:data file too large to upload
+data/raw/dynon_data.csv

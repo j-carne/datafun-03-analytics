@@ -1,0 +1,5 @@
+Dynon Flight Data - CHT Statistics
+Total Readings: 56488
+Minimum CHT: 55.4 deg F
+Maximum CHT: 359.6 deg F
+Average CHT: 292.0 deg F

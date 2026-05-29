@@ -39,6 +39,7 @@ from datafun.case_csv_pipeline import run_csv_pipeline
 from datafun.case_json_pipeline import run_json_pipeline
 from datafun.case_text_pipeline import run_text_pipeline
 from datafun.case_xlsx_pipeline import run_xlsx_pipeline
+from datafun.jcarne_cht_pipeline import run_cht_pipeline
 
 # === CONFIGURE LOGGER ONCE PER MODULE ===
 
@@ -81,6 +82,7 @@ def main() -> None:
     run_xlsx_pipeline(raw_dir=RAW_DIR, processed_dir=PROCESSED_DIR, logger=LOG)
     run_json_pipeline(raw_dir=RAW_DIR, processed_dir=PROCESSED_DIR, logger=LOG)
     run_text_pipeline(raw_dir=RAW_DIR, processed_dir=PROCESSED_DIR, logger=LOG)
+    run_cht_pipeline(raw_dir=RAW_DIR, processed_dir=PROCESSED_DIR, logger=LOG)
 
     LOG.info("========================")
     LOG.info("Executed successfully!")
